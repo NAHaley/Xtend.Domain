@@ -10,6 +10,7 @@ namespace Xtend.Domain.Accounts.Interfaces
     public interface IAccountService
     {
         int Create(ExportHistory exportHistory);
+        List<ExportHistory> GetExportHistories(int clientId);
 
         List<AccountExport> GetAccounts(int clientId, decimal balanceThreshold);
     }

@@ -14,6 +14,7 @@ namespace Xtend.Domain.Accounts.Interfaces
         #region Export History Methods
         //Export History Methods
         int Create(ExportHistory exportHistory);
+        List<ExportHistory> GetExportHistories(int clientId);
         #endregion
 
 

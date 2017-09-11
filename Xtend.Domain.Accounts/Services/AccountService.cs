@@ -23,6 +23,11 @@ namespace Xtend.Domain.Accounts.Services
             throw new NotImplementedException();
         }
 
+        public List<ExportHistory> GetExportHistories(int clientId)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<AccountExport> GetAccounts(int clientId, decimal balanceThreshold)
         {
 

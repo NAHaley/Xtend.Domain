@@ -16,6 +16,12 @@ namespace Xtend.Domain.Accounts.DataAccess.Repositories
             throw new NotImplementedException();
         }
 
+        public List<ExportHistory> GetExportHistories(int clientId)
+        {
+            // Get a list of Export History
+            throw new NotImplementedException();
+        }
+
         /// <summary>
         /// Get Accounts by Client ID and also by Balance Threshold if it is greater than 0
         /// </summary>

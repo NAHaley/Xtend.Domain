@@ -48,7 +48,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="DataEntities\AccountEntity.cs" />
     <Compile Include="DataEntities\ClientEntity.cs" />
     <Compile Include="DataEntities\ExportHistoryEntity.cs" />

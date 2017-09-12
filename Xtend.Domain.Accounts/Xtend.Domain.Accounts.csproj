@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AccountService.cs" />
+    <Compile Include="Services\ExportServices.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xtend.Domain.Accounts.Interfaces\Xtend.Domain.Accounts.Interfaces.csproj">
